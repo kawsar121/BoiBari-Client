@@ -1,11 +1,11 @@
 import React from 'react';
 
-const practise = () => {
+const Sale = () => {
     return (
         <div>
-            <h1>he</h1>
+            
         </div>
     );
 };
 
-export default practise;
+export default Sale;
