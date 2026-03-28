@@ -51,9 +51,9 @@ function Navbar() {
     </>
   );
   return (
-    <div className="bg-white">
-      <div className="max-w-7xl mx-auto border-b border-slate-300 sticky top-0 z-50 ">
-        <div className="flex items-center justify-between py-7 gap-x-3 md:gap-x-7">
+    <div className="bg-white sticky top-0 z-50">
+      <div className="max-w-7xl mx-auto ">
+        <div className="flex items-center justify-between py-2 gap-x-3 md:gap-x-7">
           <Link href="/">
             <Image src={logo} alt="logo" width={60} height={50}></Image>
           </Link>

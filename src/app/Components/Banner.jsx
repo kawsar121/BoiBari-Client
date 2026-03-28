@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination,Autoplay } from "swiper/modules";
 import { bannerData } from "../../../public/Banner";
 import Image from "next/image";
-const Banner2 = () => {
+const Banner1 = () => {
   return (
     <Swiper
       pagination={{
@@ -24,7 +24,7 @@ const Banner2 = () => {
           <Image
             src={data?.image}
             alt={`Banner ${idx}`}
-            className="mx-auto h-full lg:h-107.5"
+            className="mx-auto h-full lg:h-90"
           />
         </SwiperSlide>
       ))}
@@ -32,4 +32,4 @@ const Banner2 = () => {
   );
 };
 
-export default Banner2;
+export default Banner1;

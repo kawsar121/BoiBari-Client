@@ -7,10 +7,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html>
+      {/* max-w-7xl mx-auto */}
       <body className="bg-gray-100">
         <main className="">
           <Navbar></Navbar>
-          <div className="max-w-7xl mx-auto">
+          <div className="">
             {children}
           </div>
         </main>

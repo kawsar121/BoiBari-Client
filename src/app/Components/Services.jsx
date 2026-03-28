@@ -10,28 +10,28 @@ const Services = () => {
       <div className="flex items-center gap-2">
         <TbTruckDelivery className="text-5xl text-blue-600" />
         <div>
-          <h1 className="uppercase font-bold text-black">free delivery</h1>
+          <h1 className="uppercase font-bold">free delivery</h1>
           <p className="max-w-36 text-sm">Free shipping on all order</p>
         </div>
       </div>
       <div className="flex items-center gap-2">
         <TbCoinTaka className="text-5xl text-blue-600" />
         <div>
-          <h1 className="uppercase font-bold text-black">free delivery</h1>
+          <h1 className="uppercase font-bold">free delivery</h1>
           <p className="max-w-36 text-sm">Back gurantee under 7 days</p>
         </div>
       </div>
       <div className="flex items-center gap-2">
         <BiSupport className="text-5xl text-blue-600" />
         <div>
-          <h1 className="uppercase font-bold text-black">free delivery</h1>
+          <h1 className="uppercase font-bold">free delivery</h1>
           <p className="max-w-36 text-sm">Free shipping on all order</p>
         </div>
       </div>
       <div className="flex items-center gap-2">
         <MdOutlinePayment className="text-5xl text-blue-600" />
         <div>
-          <h1 className="uppercase font-bold text-black">free delivery</h1>
+          <h1 className="uppercase font-bold">free delivery</h1>
           <p className="max-w-36 text-sm">Free shipping on all order</p>
         </div>
       </div>
