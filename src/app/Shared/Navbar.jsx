@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import SearchInput from "../Components/SearchInput";
 import { IoIosMenu } from "react-icons/io";
@@ -8,6 +7,7 @@ import ThemeToggle from "../../../Theme/ThemeToggle";
 import Link from "next/link";
 import Image from "next/image";
 import logo from "../../Assests/logo.png";
+import DropdownMenu from "../Components/DropdownMenu";
 function Navbar() {
   const link = (
     <>
@@ -65,7 +65,8 @@ function Navbar() {
           <div className="hidden md:inline-flex items-center gap-5 lg:gap-7 text-sm uppercase font font-medium list-none">
             {icons}
           </div>
-          <IoIosMenu className="text-2xl hover:text-red-200 md:hidden" />
+          {/* Dropdown */}
+          <DropdownMenu></DropdownMenu>
         </div>
       </div>
     </div>
